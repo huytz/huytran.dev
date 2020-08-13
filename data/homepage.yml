@@ -1,0 +1,133 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Huy Tran (huytz)"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Huy."
+  subtitle: "Site Reliability Engineer"
+  description: "I worked as System Engineer/ SRE / DevOps roles."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://huytran.dev/contact/"
+
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/huytz"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I started my career with Technical Support and Operations & Maintenance roles at some IT companies. After that
+    I start my System/SRE roles at Dwarves Foundation and Tiki.
+    </p>
+    <p class="lead">
+    My area of focus lies in designing system and deploy products.I enjoy scripting and coding the system as much as
+    talking with Developers to iterate and improve the reliable that reach business goals.  
+    </p>'
+  button:
+    icon: "icon-smile-fill" 
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/huy-tran-01"
+  image:
+    x: "img/who-am-i/huytz.jpg"
+    _2x: "img/who-am-i/huytz@2x.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Ho Chi Minh City University of Science"
+      year: "2013-2017"
+      degree: "Bachelor of Networking and Telecommunications"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 3+ years of experience working with outsourcing and product companies. I design & develop/ maintain products system and infrastructure to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/huy-tran-01"
+
+  items:
+    - title: "Sr. Site Reliability Engineer"
+      company: "Tiki Corp"
+      duration: "Dec 2018 - Now"
+
+    - title: "DevOps Engineer"
+      company: "Dwarves Foundation"
+      duration: "May 2018 - Nov 2018"
+
+    - title: "Operation & Maintainence Engineer"
+      company: "NTT Communitaions Viet Nam"
+      duration: "Sep 2017 - Mar 2018"
+
+# Work
+clients-and-work:
+  title: "Tools and Technology"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/k8s.jpg"
+        _2x: "img/clients/k8s.jpg"
+      alt: "k8s"
+  works:
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+84 (0) xx xxx 092"
+  email:
+    title: "Email"
+    email: '<a href="mailto:huytran07.08.95@gmail.com">huytran07.08.95@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Tan Phu Dis<br />Ho Chi Minh City, Viet Nam"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
